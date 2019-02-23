@@ -1,0 +1,45 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "connections_azureblob_name": {
+            "value": "azureblob"
+        },
+        "connections_office365_name": {
+            "value": "office365"
+        },
+        "sites_func_serverlessdemo_name": {
+            "value": "func-serverlessdemo2"
+        },
+        "serverfarms_WestEuropePlan_name": {
+            "value": "WestEuropePlan-serverlessdemo2"
+        },
+        "workflows_logic_app_serverlessdemo_name": {
+            "value": "logicapp-serverlessdemo2"
+        },
+        "namespaces_resource_group_serverlessdemo_name": {
+            "value": "serverlessdemo2"
+        },
+        "storageAccounts_stor_serverlessdemo_name": {
+            "value": "storserverlessdemo2"
+        },
+        "storageAccounts_stor_func_serverlessdemo_name": {
+            "value": "storfuncserverlessdemo2"
+        },
+        "components_insights_serverlessdemo_name": {
+            "value": "func-insights-serverlessdemo2"
+        },
+        "accounts_content_moderator_serverless_name": {
+            "value": "content-moderator-serverlessdemo2"
+        },
+        "queues_analyze_name": {
+            "value": "analyze"
+        },
+        "AuthorizationRules_Function_name": {
+            "value": "Function"
+        },
+        "AuthorizationRules_RootManageSharedAccessKey_name": {
+            "value": "RootManageSharedAccessKey"
+        }
+    }
+}
