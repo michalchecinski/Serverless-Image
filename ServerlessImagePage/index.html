@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="File upload app.">
+    <meta name="author" content="Michał Chęciński">
+
+    <title>File hosting app - Michał Chęciński</title>
+
+    <!-- Bootstrap core CSS -->
+    <!-- <link href="static/style.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+  </head>
+
+  <body>
+ <!-- Page Content -->
+    <div class="container">
+    <p>File upload site for serverless demo. Created by Michal Checinski.</p>
+<form method="POST" action="http://localhost:7071/api/photo" enctype="multipart/form-data">
+          <div class="form-group">
+          <label for="file">File to upload:</label>
+          <input type="file" class="form-control-file" id="file" name="file" required data-value-missing="This field is required!">
+          </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+    <!-- Bootstrap core JavaScript -->
+    <script src="static/vendor/jquery/jquery.min.js"></script>
+    <script src="static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+
+  <footer class="page-footer font-small blue pt-4">
+    <div class="footer-copyright text-center py-3">© 2018 Copyright:
+      <a href="https://michalchecinski.pl"> Michał Chęciński</a>
+    </div>
+
+  </footer>
+
+</html>
